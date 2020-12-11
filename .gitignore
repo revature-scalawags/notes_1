@@ -1,0 +1,74 @@
+# Created by https://www.toptal.com/developers/gitignore/api/scala,vscode,metals,sbt
+# Edit at https://www.toptal.com/developers/gitignore?templates=scala,vscode,metals,sbt
+
+### Metals ###
+.metals/
+.bloop/
+project/**/metals.sbt
+
+### SBT ###
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+.bsp
+
+### Scala ###
+*.class
+*.log
+
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# End of https://www.toptal.com/developers/gitignore/api/scala,vscode,metals,sbt
+
+# Created by https://www.toptal.com/developers/gitignore/api/scala,vscode,metals,sbt
+# Edit at https://www.toptal.com/developers/gitignore?templates=scala,vscode,metals,sbt
+
+### Metals ###
+week1/.metals/
+week1/.bloop/
+week1/project/**/metals.sbt
+
+### SBT ###
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+week1/dist/*
+week1/target/
+week1/lib_managed/
+week1/src_managed/
+week1/project/boot/
+week1/project/plugins/project/
+week1/.history
+week1/.cache
+week1/.lib/
+week1/.bsp
+
+### Scala ###
+*.class
+*.log
+
+### vscode ###
+week1/.vscode/*
+!week1/.vscode/settings.json
+!week1/.vscode/tasks.json
+!week1/.vscode/launch.json
+!week1/.vscode/extensions.json
+*week1/.code-workspace
+
+# End of https://www.toptal.com/developers/gitignore/api/scala,vscode,metals,sbt
+
